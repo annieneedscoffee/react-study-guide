@@ -6,6 +6,10 @@ import Pictures from './Pictures';
 import Events from './Events';
 import Conditionals from './Conditionals';
 import Arrays from './Arrays';
+import ThisStuff from './ThisStuff';
+import SomeProps from './SomeProps';
+import ConditionalsandProps from './ConditionalsandProps';
+import FunctionsandProps from './FunctionsandProps';
 
 class App extends Component {
   render() {
@@ -39,6 +43,10 @@ class App extends Component {
         <Events />
         <Conditionals />
         <Arrays />
+        <ThisStuff />
+        <SomeProps prophere="Im a prop!" name="Tina"/>
+        <ConditionalsandProps name="Fred"/>
+        <FunctionsandProps />
       </div>
     );
   }
