@@ -10,6 +10,9 @@ import ThisStuff from './ThisStuff';
 import SomeProps from './SomeProps';
 import ConditionalsandProps from './ConditionalsandProps';
 import FunctionsandProps from './FunctionsandProps';
+import PropsChildren from './PropsChildren';
+import DefaultProps from './DefaultProps';
+import MyState from './MyState';
 
 class App extends Component {
   render() {
@@ -47,6 +50,9 @@ class App extends Component {
         <SomeProps prophere="Im a prop!" name="Tina"/>
         <ConditionalsandProps name="Fred"/>
         <FunctionsandProps />
+        <PropsChildren />
+        <DefaultProps />
+        <MyState />
       </div>
     );
   }
