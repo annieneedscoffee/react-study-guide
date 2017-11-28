@@ -8,7 +8,7 @@ class ThisStuff extends Component{
     return(
       <div>
       <h1>This</h1>
-      <p>You can use this to refer to a specific instance of something such as a component class. This will be more useful once we start using props and state. </p>
+      <p>Here is the content from my ThisStuff component. You can use this to refer to a specific instance of something such as a component class. This will be more useful once we start using props and state. </p>
       </div>
     )
   }
