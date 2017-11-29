@@ -13,6 +13,10 @@ import FunctionsandProps from './FunctionsandProps';
 import PropsChildren from './PropsChildren';
 import DefaultProps from './DefaultProps';
 import MyState from './MyState';
+import MyStyle from './MyStyle';
+import Footer from './Footer';
+import MorePandS from './MorePandS';
+import LifeCycle from './LifeCycle';
 
 class App extends Component {
   render() {
@@ -53,6 +57,10 @@ class App extends Component {
         <PropsChildren />
         <DefaultProps />
         <MyState />
+        <MorePandS />
+        <MyStyle />
+        <LifeCycle />
+        <Footer />
       </div>
     );
   }
