@@ -17,6 +17,10 @@ import MyStyle from './MyStyle';
 import Footer from './Footer';
 import MorePandS from './MorePandS';
 import LifeCycle from './LifeCycle';
+import MyPropTypes from './MyPropTypes';
+import MyForms from './MyForms';
+import OldForm from './OldForm';
+import TheEnd from './TheEnd';
 
 class App extends Component {
   render() {
@@ -58,8 +62,12 @@ class App extends Component {
         <DefaultProps />
         <MyState />
         <MorePandS />
+        <MyPropTypes />
+        <MyForms />
+        <OldForm />
         <MyStyle />
         <LifeCycle />
+        <TheEnd />
         <Footer />
       </div>
     );
